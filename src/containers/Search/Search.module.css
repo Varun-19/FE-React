@@ -1,0 +1,13 @@
+.search {
+    max-width: 124rem;
+    margin: 2rem auto !important;
+}
+
+.card {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+

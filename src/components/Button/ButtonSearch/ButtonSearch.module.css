@@ -1,0 +1,40 @@
+.btn {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    margin-right: 5rem;
+    border: 2px solid ;
+    background-color: white;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding: 1rem 2rem;
+    border-image-source: linear-gradient(to right, #1583dd 0%, #1089ff 100%);
+    border-image-slice: 1;
+    transition: all .5s ease;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+}
+
+.btn button:hover {
+    color: #1089ff;
+    border: none;
+    transform: translateY(-.6rem);
+    box-shadow: none;
+}
+
+.btn button:active {
+    outline: none;
+    border: none;
+    transform: translateY(-.3rem);
+    box-shadow: none;
+}
+
+.btn button:focus {
+    outline: none;
+}

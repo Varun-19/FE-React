@@ -1,0 +1,95 @@
+.card {
+    position: relative;
+    height: 55rem;
+    width: 27rem;
+    margin-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1.3rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+    transition: all .8s ease;
+    background-color: #FFF;
+    background-clip: padding-box; 
+    border: 3px solid  transparent; 
+    color: #000;
+    text-transform: uppercase;
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -2;
+    margin: -2px;
+    border-radius: inherit; 
+    background: linear-gradient(to bottom, #23374d, #1089ff);
+  }
+
+.heading {
+    margin-top: 1rem;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.imgSection {
+    margin-top: 2rem;
+    height: 19rem;
+    width: 100%;
+    background-image: url(../../assets/images/Planet/planet_2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon {
+    color: #23374d;
+}
+
+.content {
+    margin: 1.5rem 0 3.5rem .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.distance{
+    display: block;
+    font-size: 5rem;
+}
+
+.card ul {
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card li {
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 1.4rem;
+    padding: .5rem;
+}
+
+.card li:first-child {
+    margin-top: .7rem;
+}
+
+.card li:not(:last-child) {
+    border-bottom: 1px solid #999;
+}
+
+.card li:last-child {
+    margin-bottom: 2rem;
+}
+

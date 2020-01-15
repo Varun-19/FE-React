@@ -1,0 +1,12 @@
+.button:link,
+.button:visited {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: 2px solid;
+    border-image-source: linear-gradient(45deg, #23374d, #1089ff);
+    border-image-slice: 1;
+}
+
